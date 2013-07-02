@@ -1,0 +1,41 @@
+make BST -> AVL tree
+
+store height
+
+getHeight(Node n)
+	if (n == null)
+		return validheight
+	else return n.height
+
+	best way in tree is to make a recursive add 
+	recAdd(Node where at, Node what addign)
+		return a Node
+
+		root = recAdd(root, o)
+
+	Iterator return preorder
+	make preorder array and go through
+	or make toArray use iterator
+
+	make node class as an inner class of my tree
+
+	public class setImpl {
+		add(   )
+			Node n
+			n.height
+
+		private class Node {
+			private int height;
+
+
+	- balance method
+	- 
+	Node balance (Node n)
+	left.height = -1
+	right.height = 1
+
+	- only way to iterate is with a stack
+		put a root on the top of the stack
+
+		recommended make another private class for the iterator	
+
